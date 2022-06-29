@@ -50,4 +50,4 @@ jobs:
           app-name: 'easyjobs-registry-service'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC871E1E49E84C519425630D780B90B8 }}
-          package: '*.war'
+          package: '*.jar'
