@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Registry-Service
+  cloud:
+    config:
+      uri: https://easyjobs-config-service.azurewebsites.net
+      username: root
+      password: s3cr3t
